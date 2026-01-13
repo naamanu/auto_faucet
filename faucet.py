@@ -94,7 +94,7 @@ def main():
 
     log.info("Circle USDC Faucet Auto-Claimer started")
     log.info(
-        f"Addresses: {config.addresses} | Blockchain: {config.blockchain} | Interval: {INTERVAL_HOURS}h"
+        f"Addresses: {config.addresses} | Blockchain: {config.blockchain} | Interval: {config.interval_hours}h"
     )
 
     faucet = AutoFaucet(config)
